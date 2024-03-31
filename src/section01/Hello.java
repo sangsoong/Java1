@@ -3,6 +3,9 @@ package section01;
 public class Hello {
 
 	// 생성자
+	Hello(){
+		
+	}
 
 	// 메소드
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package my;
 
-class Pos {
+public class Pos {
 	public int x;
 	public int y;
 

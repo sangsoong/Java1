@@ -1,9 +1,8 @@
 package my;
 
 import java.util.ArrayList;
-import my.Pos;
 
-class Graph {
+public class Graph {
 	public ArrayList<Pos> func;
 	private int range;
 	private int max_x;
