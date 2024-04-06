@@ -24,10 +24,10 @@ public class Graph {
 
 	private void calc() {
 		int move_x = 0;
-		int move_y = 5;
+		int move_y = 0;
 		for (int x = 0 - move_x; x <= range - move_x; x++) {
 			int pos_x = x + move_x;
-			int pos_y = (int) (Math.log(x) * Math.sin(x)) + move_y; // *
+			int pos_y = (int) (Math.cbrt((Math.pow(x, (x - 4) * (x - 7))))) + move_y; // formula
 			func.add(x + move_x, new Pos(pos_x, pos_y));
 		}
 	}
