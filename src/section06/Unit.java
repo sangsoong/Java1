@@ -14,9 +14,6 @@ public class Unit {
     }
 
     public void info() {
-        System.out.printf("name: %s", name);
-        System.out.printf("name: %d", damage);
-        System.out.printf("name: %d", defense);
-        System.out.printf("name: %d", speed);
+        System.out.printf("name: %s\t damage: %d\t defense: %d\t speed: %d\t", name, damage, defense, speed);
     }
 }
